@@ -5,7 +5,7 @@ A desktop application for generating, managing, and exporting personalized bedti
 Created by Jules, Senior Product Engineer, for iD01t Productions.
 
 This is the final, single-file, bullet-proof implementation. It includes:
-- A self-contained, rich content library.
+- A self-contained, rich content library with 25 themes per language.
 - A robust story generation engine.
 - A full-featured Tkinter UI with a modern, clean design.
 - A dependency checker that offers to install optional packages (Pillow, reportlab).
