@@ -24,7 +24,13 @@ import platform
 import webbrowser
 import textwrap
 import itertools
-import subprocess
+import webbrowser
+import textwrap
+import itertools
+# from subprocess import run  # Import only the 'run' function from subprocess
+from io import BytesIO
+
+# --- Dependency Management ---
 from io import BytesIO
 
 # --- Dependency Management ---
