@@ -245,7 +245,17 @@ class ContentEngine:
             # Create the final story data object, similar to the old engine's format
             story_data = {
                 'id': str(uuid.uuid4()), 'title': story_title, 'text': full_story,
-                'timestamp': datetime.datetime.now().isoformat(), 'language': params.get('language'), 'theme': theme_name,
+story_title = title_template.format(topic=topic)
+
+            # Create the final story data object, similar to the old engine's format
+            # Import datetime and timezone to create an aware datetime object in UTC
+            from datetime import datetime, timezone
+            story_data = {
+                'id': str(uuid.uuid4()), 'title': story_title, 'text': full_story,
+                'timestamp': datetime.now(timezone.utc).isoformat(), 'language': params.get('language'), 'theme': theme_name,
+                'tags': [theme_name, tone], 'length': len(full_story.split()),
+                'tone': tone, 'seed': str(self.random.getstate()), 'favorite': False, 'params': params,
+                'moral': theme.get('moral', ''), 'breathing': theme.get('breathing', '')
                 'tags': [theme_name, tone], 'length': len(full_story.split()),
                 'tone': tone, 'seed': str(self.random.getstate()), 'favorite': False, 'params': params,
                 'moral': theme.get('moral', ''), 'breathing': theme.get('breathing', '')
