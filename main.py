@@ -991,4 +991,3 @@ class BedtimeStoryMakerApp(tk.Tk):
 if __name__ == "__main__":
     app = BedtimeStoryMakerApp()
     app.mainloop()
->>>>>>> REPLACE
