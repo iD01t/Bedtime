@@ -137,7 +137,53 @@ STORY_THEMES = {
       "tone_map": { "Doux": "tout doucement, comme une brise tiède", "Aventurier": "avec courage et curiosité", "Drôle": "en riant de petites surprises", "Magique": "dans un monde scintillant de surprises", "Apaisant": "avec un calme profond et rassurant" },
       "title_template": "Une histoire sur {topic}", "default_name": "l'enfant", "default_age": "6", "default_topic": "une douce idée"
     },
-    # ... (All 24 other French themes included here)
+"segments": ["{name} boarded a rocket ship, {tone}, and blasted off toward {topic} with a gleaming heart.","Along the Milky Way, {name} met an alien friend who whispered about {topic} and cosmic secrets.","A comet tail lit the path as {name}, {tone}, discovered a lesson about {topic} among the stars.","Every planet breathed slowly, and with each orbit, {topic} seemed closer and kinder to {name}.","A cluster of shooting stars guided {name} to where {topic} shimmered, revealing a small lesson."],
+      "closing": ["Back home, {name}'s bed felt like a spaceship; {topic} became a soft constellation to dream on.","Feeling safe, {name} let the universe rock them to sleep. {topic} turned into a quiet starry friend.","The moon smiled at {name}, and {topic} fell asleep too, letting the silence mend heart and mind."],
+      "breathing": "Breathe in through the nose for 3, hold for 2, breathe out slowly for 4. Repeat softly three times.","moral": "Moral: Even big ideas feel light when we breathe calmly and listen to our heart.",
+      "tone_map": { "Gentle": "very gently, like a warm breeze", "Adventurous": "with courage and curiosity", "Funny": "with small surprises and giggles", "Magical": "in a world full of sparkling wonders", "Soothing": "with deep comfort and calm" },
+      "title_template": "A Story about {topic}", "default_name": "the child", "default_age": "6", "default_topic": "a gentle idea"
+    },
+    {
+      "name": "Enchanted Forest",
+      "opening": ["Deep in the magical woods, {name}, {age} years old, stumbled upon {topic} hidden among ancient trees.", "As twilight fell on the enchanted forest, {name}, at {age}, discovered {topic} glowing softly.", "Beneath a canopy of whispering leaves, {name}, just {age}, found {topic} waiting to be explored."],
+      "segments": ["Fairy lights danced around {name} as they ventured, {tone}, deeper into the heart of {topic}.", "A wise old owl shared secrets about {topic}, its eyes twinkling with ancient knowledge.", "Crossing a babbling brook, {name} felt the forest's magic strengthening their connection to {topic}.", "In a clearing bathed in moonlight, {name} realized how {topic} was woven into the very fabric of the forest.", "A friendly sprite showed {name} how {topic} could create harmony between all forest creatures."],
+      "closing": ["As dawn broke, {name} found their way home, carrying the forest's lessons about {topic} in their heart.", "The trees waved goodbye, and {name} knew that {topic} would always be a part of their dreams.", "Tucked into bed, {name} could still hear the forest's lullaby, singing softly about {topic}."],
+      "breathing": "Breathe in the forest's fresh air for 4, hold the magic for 4, release slowly for 4. Repeat gently thrice.",
+      "moral": "Moral: Nature's wisdom can teach us valuable lessons about life and ourselves.",
+      "tone_map": {"Whimsical": "with a sparkle of magic", "Mysterious": "with curiosity and wonder", "Peaceful": "with serene calmness", "Playful": "with joyful energy", "Wise": "with thoughtful reflection"},
+      "title_template": "The Magical Forest and {topic}",
+      "default_name": "the young explorer",
+      "default_age": "7",
+      "default_topic": "the secrets of nature"
+    }
+  ],
+  "Français": [
+    {
+      "name": "Aventure spatiale", "opening": ["Dans le vaste cosmos, {name}, âgé de {age} ans, imaginait {topic} parmi les étoiles.","Au-dessus des nuages, {name}, {age} ans, rêvait de {topic} en traversant l'espace.","À la lueur des étoiles, {name}, âgé de {age}, se laissait aller à des pensées de {topic} et de galaxies."],
+      "segments": ["{name} monta à bord d'une fusée, {tone}, et décolla vers {topic} avec un cœur scintillant.","Le long de la Voie lactée, {name} rencontra un ami extraterrestre qui lui chuchota des secrets sur {topic}.","La traînée d'une comète éclaira le chemin alors que {name}, {tone}, découvrit une leçon sur {topic} parmi les étoiles.","Chaque planète respirait lentement et, à chaque orbite, {topic} semblait plus proche et plus doux pour {name}.","Un essaim d'étoiles filantes guida {name} vers l'endroit où {topic} scintillait, révélant une petite leçon."],
+      "closing": ["De retour chez lui, le lit de {name} ressemblait à un vaisseau; {topic} devint une douce constellation à rêver.","Se sentant en sécurité, {name} laissa l'univers le bercer jusqu'au sommeil. {topic} s'était transformé en un ami étoilé.","La lune sourit à {name}, et {topic} s'endormit aussi, laissant le silence réparer le cœur et l'esprit."],
+      "breathing": "Inspire par le nez pendant 3, bloque 2, expire lentement pendant 4. Répète trois fois, très doucement.", "moral": "Moralité : Même les grands sujets deviennent légers lorsque l'on respire calmement et que l'on écoute son cœur.",
+      "tone_map": { "Doux": "tout doucement, comme une brise tiède", "Aventurier": "avec courage et curiosité", "Drôle": "en riant de petites surprises", "Magique": "dans un monde scintillant de surprises", "Apaisant": "avec un calme profond et rassurant" },
+      "title_template": "Une histoire sur {topic}", "default_name": "l'enfant", "default_age": "6", "default_topic": "une douce idée"
+    },
+    {
+      "name": "Forêt Enchantée",
+      "opening": ["Au cœur de la forêt magique, {name}, âgé de {age} ans, découvrit {topic} caché parmi les arbres anciens.", "Alors que le crépuscule tombait sur la forêt enchantée, {name}, à {age} ans, aperçut {topic} qui brillait doucement.", "Sous une canopée de feuilles murmurantes, {name}, tout juste {age} ans, trouva {topic} qui attendait d'être exploré."],
+      "segments": ["Des lumières féeriques dansaient autour de {name} tandis qu'il s'aventurait, {tone}, plus profondément dans le cœur de {topic}.", "Un vieux hibou sage partagea des secrets sur {topic}, ses yeux pétillant de connaissance ancienne.", "En traversant un ruisseau babillard, {name} sentit la magie de la forêt renforcer son lien avec {topic}.", "Dans une clairière baignée de clair de lune, {name} réalisa comment {topic} était tissé dans la trame même de la forêt.", "Un lutin amical montra à {name} comment {topic} pouvait créer l'harmonie entre toutes les créatures de la forêt."],
+      "closing": ["À l'aube, {name} retrouva son chemin, emportant dans son cœur les leçons de la forêt sur {topic}.", "Les arbres lui firent signe d'au revoir, et {name} sut que {topic} ferait toujours partie de ses rêves.", "Blotti dans son lit, {name} pouvait encore entendre la berceuse de la forêt, chantant doucement à propos de {topic}."],
+      "breathing": "Inspire l'air frais de la forêt pendant 4, retiens la magie pendant 4, relâche lentement pendant 4. Répète doucement trois fois.",
+      "moral": "Morale : La sagesse de la nature peut nous enseigner de précieuses leçons sur la vie et nous-mêmes.",
+      "tone_map": {"Féérique": "avec une étincelle de magie", "Mystérieux": "avec curiosité et émerveillement", "Paisible": "avec un calme serein", "Enjoué": "avec une énergie joyeuse", "Sage": "avec une réflexion profonde"},
+      "title_template": "La Forêt Magique et {topic}",
+      "default_name": "le jeune explorateur",
+      "default_age": "7",
+      "default_topic": "les secrets de la nature"
+    }
+  ]
+}
+
+
+# --- Managers and Engines ---
   ]
 }
 
