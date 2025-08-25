@@ -148,7 +148,13 @@ class ContentEngine:
     """ New, more powerful story generator based on story_backend.py """
     def __init__(self, themes_data):
         self.themes_data = themes_data
-        self.random = random.Random()
+""" New, more powerful story generator based on story_backend.py """
+    def __init__(self, themes_data):
+        self.themes_data = themes_data
+        self.random = random.Random(os.urandom(32))
+
+    def get_available_themes(self, lang="English"):
+        lang_key = "Français" if lang == 'fr' else "English"
 
     def get_available_themes(self, lang="English"):
         lang_key = "Français" if lang == 'fr' else "English"
