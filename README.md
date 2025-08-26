@@ -1,6 +1,6 @@
 # Bedtime Story Maker - v3.0.0 Premium
 
-**Created by Jules, Senior Product Engineer for iD01t Productions**
+**Created by Guillaume Lessard, Senior Product Engineer for iD01t Productions**
 
 Welcome to the Bedtime Story Maker, a premium, offline-first desktop application designed to help you create, manage, and share unique and personalized bedtime stories for children.
 
